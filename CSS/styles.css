@@ -1,0 +1,119 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+background-size: cover;
+background-repeat: no-repeat;
+height: 80%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card {
+height: 410px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(15, 15, 15, 0.916) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #55caee;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3 {
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #00d3f8;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #05c4e6;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+body{
+    /* Safari 4-5, Chrome 1-9 */
+      background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+  
+    /* Safari 5.1+, Chrome 10+ */
+      background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+  
+    /* Firefox 3.6+ */
+      background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
+  
+    /* IE 10 */
+      background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
+      height:1000px;
+  }
+  
+  .centered-form{
+      margin-top: 60px;
+      
+  }
+  
+  .centered-form .panel{
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: rgba(0, 0, 0, 0.3) 40px 40px 40px;
+  }
+  
+  label.label-floatlabel {
+      font-weight: bold;
+      color: #46b8da;
+      font-size: 11px;
+  }
