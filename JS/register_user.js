@@ -1,5 +1,5 @@
-import {  registeruser} from "../JS/firebase.js";
-import { registera } from "../JS/firebase.js";
+import {  registeruser, registera} from "../JS/firebase.js";
+
 
 
 const formregistro = document.getElementById("registraruser")

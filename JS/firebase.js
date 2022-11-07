@@ -28,7 +28,7 @@ const app = initializeApp(firebaseConfig);
 //Module authentication
 const auth = getAuth();
 // firestre
-const db= getFirestore();
+ export const db= getFirestore();
 
 
 export const loginvalidation=(email,password)=>
